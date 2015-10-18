@@ -1,0 +1,51 @@
+resources:
+  bootstrap:
+    number: 1
+    flavor: small
+    image: trusty
+    networks: default
+  haproxy:
+    number: 1
+    flavor: medium
+    image: trusty
+    networks: default
+  oc:
+    number: 1
+    flavor: large
+    image: trusty
+    networks: default
+  ocdb:
+    number: 1
+    flavor: large
+    image: trusty
+    networks: default
+  ct:
+    number: 1
+    flavor: large
+    image: trusty
+    networks: default
+  stmonleader:
+    number: 1
+    flavor: storage
+    image: trusty
+    networks: default
+  stmon:
+    number: 2
+    flavor: storage
+    image: trusty
+    networks: default
+  st:
+    number: 0
+    flavor: storage
+    image: trusty
+    networks: default
+  cp:
+    number: 2
+    flavor: large
+    image: trusty
+    networks: default
+  gcp:
+    number: 1
+    flavor: large
+    image: trusty
+    networks: default

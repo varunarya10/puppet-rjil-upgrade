@@ -1,0 +1,7 @@
+resources:
+  bootstrap:
+    number: 1
+    flavor: small
+    image: trusty
+    networks: default
+    assign_floating_ip: true

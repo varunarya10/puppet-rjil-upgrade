@@ -1,0 +1,49 @@
+StrictHostKeyChecking no
+UserKnownHostsFile /dev/null
+LogLevel ERROR
+
+Host ocdb1_test
+    HostName 10.140.12.49
+    ProxyCommand ssh -o LogLevel=ERROR -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null %r@None nc %h %p
+
+Host haproxy1_test
+    HostName 10.140.12.48
+    ProxyCommand ssh -o LogLevel=ERROR -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null %r@None nc %h %p
+
+Host stmon2_test
+    HostName 10.140.12.14
+    ProxyCommand ssh -o LogLevel=ERROR -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null %r@None nc %h %p
+
+Host ct1_test
+    HostName 10.140.12.19
+    ProxyCommand ssh -o LogLevel=ERROR -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null %r@None nc %h %p
+
+Host stmon1_test
+    HostName 10.140.12.54
+    ProxyCommand ssh -o LogLevel=ERROR -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null %r@None nc %h %p
+
+Host bootstrap1_test
+    HostName 10.140.12.50
+    ProxyCommand ssh -o LogLevel=ERROR -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null %r@None nc %h %p
+
+Host cp2_test
+    HostName 10.140.12.17
+    ProxyCommand ssh -o LogLevel=ERROR -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null %r@None nc %h %p
+
+Host cp1_test
+    HostName 10.140.12.59
+    ProxyCommand ssh -o LogLevel=ERROR -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null %r@None nc %h %p
+
+Host oc1_test
+    HostName 10.140.12.51
+    ProxyCommand ssh -o LogLevel=ERROR -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null %r@None nc %h %p
+
+Host stmonleader1_test
+    HostName 10.140.12.13
+    ProxyCommand ssh -o LogLevel=ERROR -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null %r@None nc %h %p
+
+Host gcp1_test
+    HostName 10.140.12.53
+    ProxyCommand ssh -o LogLevel=ERROR -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null %r@None nc %h %p
+
+
