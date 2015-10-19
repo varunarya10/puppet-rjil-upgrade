@@ -74,7 +74,7 @@ mod 'stackforge/cinder',
   :ref => 'stable/kilo'
 
 mod 'stackforge/openstacklib',
-  :git => "https://github.com/upadhyay-prashant/puppet-openstacklib",
+  :git => "https://github.com/varunarya10/puppet-openstacklib",
   :ref => 'stable/kilo'
 
 mod 'stackforge/ironic',
@@ -94,7 +94,7 @@ mod 'stackforge/glance',
   :ref => 'stable/kilo'
 
 mod 'puppetlabs/keystone',
-  :git => "https://github.com/upadhyay-prashant/puppet-keystone",
+  :git => "https://github.com/varunarya10/puppet-keystone",
   :ref => 'stable/kilo'
 
 mod 'puppetlabs/mysql',
